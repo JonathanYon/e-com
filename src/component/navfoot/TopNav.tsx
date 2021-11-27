@@ -17,22 +17,22 @@ const TopNav = () => {
       className="d-flex justify-content-between"
     >
       <div className="d-flex">
-        <div className="mr-4 rounded-circle burger ml-5">
+        <div className="mr-lg-4 rounded-circle burger ml-lg-5">
           <FaBars />
         </div>
-        <div className="mt-2">
-          <FiSearch className="search mr-2" />
-          <small>Search</small>
+        <div className="mt-lg-2 d-flex">
+          <FiSearch className="search mr-lg-2" />
+          <small className="d-none d-lg-block search-word">Search</small>
         </div>
       </div>
       <div>
         <h2>e-com</h2>
       </div>
       <div>
-        <div className="mr-5">
-          <small>Login</small>
-          <BiUser />
-          <FiShoppingCart className="ml-2" />
+        <div className="mr-lg-5 d-flex">
+          <small className="d-none d-lg-block">Login</small>
+          <BiUser className="d-none d-lg-block" />
+          <FiShoppingCart className="ml-lg-2" />
         </div>
       </div>
     </Navbar>
