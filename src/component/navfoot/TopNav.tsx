@@ -22,10 +22,13 @@ const TopNav = () => {
         <Modal show={show} onHide={handleClose} animation={false}>
           <Modal.Body>
             <ListGroup variant="flush">
-              <ListGroup.Item action variant="warning">
-                warning
-              </ListGroup.Item>
               <ListGroup.Item action variant="light">
+                <div className="d-flex justify-content-between">
+                  <h2>Hello 👋</h2>
+                  <h5>Login</h5>
+                </div>
+              </ListGroup.Item>
+              <ListGroup.Item action variant="warning">
                 Light
               </ListGroup.Item>
             </ListGroup>
