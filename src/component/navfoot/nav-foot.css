@@ -1,0 +1,13 @@
+.burger {
+  font-size: 23px;
+  background-color: #f8f9fa;
+  border: 1px solid grey;
+  height: 40px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 40px;
+}
+.search {
+  font-size: 22px;
+}
