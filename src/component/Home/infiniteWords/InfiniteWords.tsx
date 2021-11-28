@@ -2,7 +2,7 @@ import "./infinit.css";
 
 const InfinitWords = () => {
   return (
-    <div className="position-relative marquee-container d-sm-block bg-secondary">
+    <div className="position-relative marquee-container mt-5 d-sm-block bg-secondary">
       <div className="marquee d-flex justify-content-around">
         <span>
           ORDER NOW<b>PAY AT THE END OF DECEMBER. SELECT INVOICE AT CHECKOUT</b>
