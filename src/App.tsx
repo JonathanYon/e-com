@@ -4,6 +4,7 @@ import "./App.css";
 import TopNav from "./component/navfoot/TopNav";
 import IndividualCategory from "./component/Home/category/IndividualCateg";
 import InfinitWords from "./component/Home/infiniteWords/InfiniteWords";
+import Carousell from "./component/Home/carousel/Carousell";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TopNav />
       <IndividualCategory />
       <InfinitWords />
+      <Carousell />
     </div>
   );
 }
