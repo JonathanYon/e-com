@@ -1,14 +1,50 @@
 import { images } from "../../../asset/img";
 import Slider from "react-slick";
+import "./carsoull.css";
+import { Container } from "react-bootstrap";
 
 const Carousell = () => {
+  function SampleNextArrow(props: any) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "black",
+          borderRadius: "50%",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props: any) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          display: "block",
+          background: "black",
+          borderRadius: "50%",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+
   let settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    initialSlide: 0,
+    initialSlide: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -37,35 +73,67 @@ const Carousell = () => {
     ],
   };
   return (
-    <div>
+    <Container>
       <h2> Responsive </h2>
       <Slider {...settings}>
-        <div>
-          <img src={images.img7} />
+        <div className="">
+          <img
+            src={images.img7}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img8} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img8} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img7} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img8} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img7} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img7} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
         <div>
-          <img src={images.img8} />
+          <img
+            src={images.img8}
+            className="bg-light"
+            style={{ width: "15rem" }}
+          />
         </div>
       </Slider>
-    </div>
+    </Container>
   );
 };
 export default Carousell;

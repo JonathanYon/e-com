@@ -1,0 +1,9 @@
+.slick-prev {
+  background-color: red;
+  font-size: xx-large;
+}
+.slick-next {
+  background-color: red;
+  /* font-size: 100px; */
+  /* margin-right: -50px; */
+}
