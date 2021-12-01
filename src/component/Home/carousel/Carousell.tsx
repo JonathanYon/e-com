@@ -91,10 +91,13 @@ const Carousell = () => {
               Super deal
             </Badge>
           </div>
-          <div style={{ width: "15rem" }}>
-            <small>hello</small>
-            <br />
-            <small>300$</small>
+          <div
+            style={{ width: "15rem" }}
+            className=" d-flex flex-column text-left"
+          >
+            <small className="product-name">hello</small>
+
+            <small className="product-price">300$</small>
           </div>
         </div>
         <div>
