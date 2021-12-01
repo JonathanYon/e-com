@@ -1,7 +1,7 @@
 import { images } from "../../../asset/img";
 import Slider from "react-slick";
 import "./carsoull.css";
-import { Container } from "react-bootstrap";
+import { Badge, Container } from "react-bootstrap";
 
 const Carousell = () => {
   function SampleNextArrow(props: any) {
@@ -76,12 +76,26 @@ const Carousell = () => {
     <Container>
       <h2> Responsive </h2>
       <Slider {...settings}>
-        <div className="">
-          <img
-            src={images.img7}
-            className="bg-light"
-            style={{ width: "15rem" }}
-          />
+        <div>
+          <div className="position-relative">
+            <img
+              src={images.img7}
+              className="bg-light"
+              style={{ width: "15rem" }}
+            />
+
+            <Badge bg="warning" pill className="new">
+              New
+            </Badge>
+            <Badge bg="success" pill className="super-deal">
+              Super deal
+            </Badge>
+          </div>
+          <div style={{ width: "15rem" }}>
+            <small>hello</small>
+            <br />
+            <small>300$</small>
+          </div>
         </div>
         <div>
           <img

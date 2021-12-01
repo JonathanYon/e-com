@@ -1,9 +1,10 @@
-.slick-prev {
-  background-color: red;
-  font-size: xx-large;
+.super-deal {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
 }
-.slick-next {
-  background-color: red;
-  /* font-size: 100px; */
-  /* margin-right: -50px; */
+.new {
+  position: absolute;
+  bottom: 18%;
+  left: 0;
 }
