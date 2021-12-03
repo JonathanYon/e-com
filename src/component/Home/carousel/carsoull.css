@@ -8,7 +8,15 @@
   bottom: 18%;
   left: 0;
 }
-.product-name {
+/* .product-name {
 }
 .product-price {
+} */
+.slick-prev {
+  left: 1% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
 }
