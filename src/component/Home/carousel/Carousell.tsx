@@ -4,37 +4,37 @@ import "./carsoull.css";
 import { Badge, Container } from "react-bootstrap";
 
 const Carousell = () => {
-  function SampleNextArrow(props: any) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          display: "block",
-          background: "black",
-          borderRadius: "50%",
-        }}
-        onClick={onClick}
-      />
-    );
-  }
+  // function SampleNextArrow(props: any) {
+  //   const { className, style, onClick } = props;
+  //   return (
+  //     <div
+  //       className={className}
+  //       style={{
+  //         ...style,
+  //         display: "block",
+  //         background: "black",
+  //         borderRadius: "50%",
+  //       }}
+  //       onClick={onClick}
+  //     />
+  //   );
+  // }
 
-  function SamplePrevArrow(props: any) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{
-          ...style,
-          display: "block",
-          background: "black",
-          borderRadius: "50%",
-        }}
-        onClick={onClick}
-      />
-    );
-  }
+  // function SamplePrevArrow(props: any) {
+  //   const { className, style, onClick } = props;
+  //   return (
+  //     <div
+  //       className={className}
+  //       style={{
+  //         ...style,
+  //         display: "block",
+  //         background: "black",
+  //         borderRadius: "50%",
+  //       }}
+  //       onClick={onClick}
+  //     />
+  //   );
+  // }
 
   let settings = {
     dots: true,
@@ -43,8 +43,8 @@ const Carousell = () => {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
