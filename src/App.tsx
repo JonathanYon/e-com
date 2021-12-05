@@ -6,6 +6,7 @@ import IndividualCategory from "./component/Home/category/IndividualCateg";
 import InfinitWords from "./component/Home/infiniteWords/InfiniteWords";
 import Carousell from "./component/Home/carousel/Carousell";
 import NewInfo from "./component/Home/newInfo/NewInfo";
+import Footer from "./component/navfoot/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <InfinitWords />
       <Carousell />
       <NewInfo photo={`${process.env.PUBLIC_URL}/xmas.webp`} />
+      <Footer />
     </div>
   );
 }
