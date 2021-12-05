@@ -12,9 +12,10 @@ function App() {
     <div className="App">
       <TopNav />
       <IndividualCategory />
+      <NewInfo photo={`${process.env.PUBLIC_URL}/fashion.jpg`} />
       <InfinitWords />
       <Carousell />
-      <NewInfo />
+      <NewInfo photo={`${process.env.PUBLIC_URL}/xmas.webp`} />
     </div>
   );
 }

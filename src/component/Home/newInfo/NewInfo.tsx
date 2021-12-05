@@ -1,15 +1,15 @@
 import { Container } from "react-bootstrap";
 import "./new-info.css";
 
-const NewInfo = () => {
+interface ComProps {
+  photo: string;
+}
+
+const NewInfo = (props: ComProps) => {
   return (
     <>
       <div className="position-relative">
-        <img
-          src={`${process.env.PUBLIC_URL}/xmas.webp`}
-          alt="xmas photo"
-          style={{ width: "100%" }}
-        />
+        <img src={props.photo} alt="xmas photo" style={{ width: "100%" }} />
         <div className="xmas-info">
           <h1 className="xmas-treat">Christimas Treat</h1>
           <h1 className="xmas-discount">25%</h1>
