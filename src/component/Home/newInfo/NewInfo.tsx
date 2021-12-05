@@ -11,9 +11,9 @@ const NewInfo = () => {
           style={{ width: "100%" }}
         />
         <div className="xmas-info">
-          <h1>Christimas Treat</h1>
-          <h1>25%</h1>
-          <h2>ON OUTERWEAR AND TOPS</h2>
+          <h1 className="xmas-treat">Christimas Treat</h1>
+          <h1 className="xmas-discount">25%</h1>
+          <h2 className="xmas-cloth">ON OUTERWEAR AND TOPS</h2>
         </div>
       </div>
     </>

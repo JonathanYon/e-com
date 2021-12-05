@@ -1,5 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap");
+
 .xmas-info {
   position: absolute;
   top: 0;
   right: 0;
+  color: white;
+}
+.xmas-treat {
+  font-family: "Corinthia", cursive;
+  margin: 6rem 10rem 0 0;
+}
+.xmas-discount {
+  margin: 6rem 4rem 0 0;
+  font-weight: bolder;
+  font-size: 200px;
+}
+.xmas-cloth {
+  margin: 6rem 10rem 0 0;
 }
