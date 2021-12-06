@@ -1,18 +1,25 @@
-import img1 from "../asset/64x64.png"
-import img2 from "../asset/brand.jpeg"
-import img3 from "../asset/api_documentation.png"
-import img4 from "../asset/business.png"
-import img5 from "../asset/design.png"
-import img6 from "../asset/data.png"
-import img7 from "../asset/doge_email.png"
-import img8 from "../asset/doge_email.png"
-import img10 from "../asset/doge_title.png"
-import img9 from "../asset/hr.png"
-import img11 from "../asset/jobs.png"
-import img12 from "../asset/marketing.png"
-import img13 from "../asset/product.png"
-import img14 from "../asset/teach.png"
-import img15 from "../asset/ux.jpeg"
+import img1 from "../asset/ac.jpg"
+import img2 from "../asset/ee.jpeg"
+import img3 from "../asset/d.jpeg"
+import img4 from "../asset/b(1).jpeg"
+import img5 from "../asset/b(3).jpeg"
+import img6 from "../asset/b(4).jpeg"
+import img7 from "../asset/b(5).jpeg"
+import img8 from "../asset/z.jpeg"
+import img10 from "../asset/ab.jpg"
+import img9 from "../asset/ba.jpg"
+import img11 from "../asset/bc.jpg"
+import img12 from "../asset/ca.jpg"
+import img13 from "../asset/cb.jpg"
+import img14 from "../asset/aa.jpeg"
+import img15 from "../asset/bb.jpeg"
+import img16 from "../asset/cc.jpeg"
+import img17 from "../asset/dd.jpeg"
+import img18 from "../asset/b.jpeg"
+import img19 from "../asset/c.jpeg"
+import img20 from "../asset/e.jpeg"
+import img21 from "../asset/f.jpeg"
+
 
 export const images = {
     img1: img1,
@@ -29,5 +36,12 @@ export const images = {
     img12: img12,
     img13: img13,
     img14: img14,
-    img15: img15  
+    img15: img15,
+    img16: img16,  
+    img17: img17,  
+    img18: img18,  
+    img19: img19,  
+    img20: img20,  
+    img21: img21  
+   
 }
