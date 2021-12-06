@@ -37,7 +37,7 @@ const SmoothCarsoul = () => {
             <img
               src={images.img2}
               className="bg-light"
-              // style={{ width: "15rem" }}
+              style={{ width: "15rem" }}
             />
 
             {/* <Badge bg="warning" pill className="new">
@@ -61,7 +61,7 @@ const SmoothCarsoul = () => {
             <img
               src={images.img2}
               className="bg-light"
-              // style={{ width: "15rem" }}
+              style={{ width: "15rem" }}
             />
 
             {/* <Badge bg="warning" pill className="new">
@@ -85,7 +85,7 @@ const SmoothCarsoul = () => {
             <img
               src={images.img2}
               className="bg-light"
-              // style={{ width: "15rem" }}
+              style={{ width: "15rem" }}
             />
 
             {/* <Badge bg="warning" pill className="new">
@@ -109,7 +109,7 @@ const SmoothCarsoul = () => {
             <img
               src={images.img2}
               className="bg-light"
-              // style={{ width: "15rem" }}
+              style={{ width: "15rem" }}
             />
 
             {/* <Badge bg="warning" pill className="new">
@@ -133,7 +133,7 @@ const SmoothCarsoul = () => {
             <img
               src={images.img2}
               className="bg-light"
-              // style={{ width: "15rem" }}
+              style={{ width: "15rem" }}
             />
 
             {/* <Badge bg="warning" pill className="new">
