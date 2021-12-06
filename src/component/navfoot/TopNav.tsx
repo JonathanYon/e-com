@@ -1,6 +1,14 @@
 import "./nav-foot.css";
 
-import { Navbar, Modal, ListGroup, FormControl, Card } from "react-bootstrap";
+import {
+  Navbar,
+  Modal,
+  ListGroup,
+  Row,
+  Card,
+  Container,
+  Col,
+} from "react-bootstrap";
 import { FaBars } from "react-icons/fa";
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
 import { BiUser } from "react-icons/bi";
@@ -97,6 +105,16 @@ const TopNav = () => {
           </div>
         </div>
       </Navbar>
+      <Container className="bg-light">
+        <Row className="mx-5">
+          <Col className="d-flex justify-content-between">
+            <small>Brands</small>
+            <small>Electronics</small>
+            <small>Shoes</small>
+            <small>Cloths</small>
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };
