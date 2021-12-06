@@ -13,10 +13,10 @@
 .product-price {
 } */
 .slick-prev {
-  left: 1% !important;
+  right: 1% !important;
   z-index: 1;
 }
 .slick-next {
-  right: 3% !important;
+  right: 1% !important;
   z-index: 1;
 }
