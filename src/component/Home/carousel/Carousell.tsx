@@ -1,7 +1,8 @@
 import { images } from "../../../asset/img";
 import Slider from "react-slick";
 import "./carsoull.css";
-import { Badge, Container } from "react-bootstrap";
+import { Badge, Card, Container } from "react-bootstrap";
+import SmallCarsoul from "./SmallCarsoul";
 
 const Carousell = () => {
   function SampleNextArrow(props: any) {
@@ -77,7 +78,7 @@ const Carousell = () => {
       <h2> Responsive </h2>
       <Slider {...settings}>
         <div>
-          <div className="position-relative">
+          {/* <div className="position-relative">
             <img
               src={images.img6}
               className="bg-light"
@@ -98,7 +99,23 @@ const Carousell = () => {
             <small className="product-name">hello</small>
 
             <small className="product-price">300$</small>
-          </div>
+          </div> */}
+          <Card style={{ width: "15rem" }}>
+            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+            <img
+              src={images.img6}
+              className="bg-light"
+              style={{ width: "15rem" }}
+            />
+            <Card.Body>
+              {/* <Card.Title>Card Title</Card.Title> */}
+              {/* <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text> */}
+              <SmallCarsoul />
+            </Card.Body>
+          </Card>
         </div>
         <div>
           <div className="position-relative">
