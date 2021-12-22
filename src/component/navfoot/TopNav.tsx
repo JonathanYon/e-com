@@ -105,7 +105,7 @@ const TopNav = () => {
           </div>
         </div>
       </Navbar>
-      <Container className="bg-light">
+      <Container className="bg-light rounded-top">
         <Row className="mx-5">
           <Col className="d-flex justify-content-between">
             <small>Brands</small>
